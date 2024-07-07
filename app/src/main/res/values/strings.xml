@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CommonGestures</string>
+    <string name="ondown">onDown</string>
+    <string name="onshowpress">onShowPress</string>
+    <string name="onsingletapup">onSingleTapUp</string>
+    <string name="onscroll">onScroll</string>
+    <string name="onlongpress">onLongPress</string>
+    <string name="onfling">onFling</string>
+    <string name="onsingletapconfirmed">onSingleTapConfirmed</string>
+    <string name="ondoubletap">onDoubleTap</string>
+</resources>
