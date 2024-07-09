@@ -36,6 +36,11 @@ class MainActivity : AppCompatActivity(),
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+
         //Dado que esto solo debe realizarse una vez en el momento en que
         //se crea la actividad, el mejor lugar para crear la instancia de GestureDetector
         //es el método onCreate():
